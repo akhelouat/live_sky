@@ -1,4 +1,10 @@
-city = "Paris";
+var str = document.location.href;
+var url = new URL(str);
+var city = url.searchParams.get("city");
+if (city == null)
+{
+  city = "Paris";
+}
 var request = new XMLHttpRequest();
 request.open("GET", "https://cors-anywhere.herokuapp.com/http://api.weatherstack.com/current?access_key=d7e04fd81f604f1333e022ce7e3d0df8&query=" + city);
 request.responseType='json';

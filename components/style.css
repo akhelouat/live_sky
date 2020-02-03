@@ -1,0 +1,49 @@
+html
+{
+    height: 100%;
+    background-image: url("background.jpeg");
+    background-size: 100%;
+}
+body
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+}
+#meteo
+{
+   color: rgb(94, 94, 94);
+   padding: 30px;
+   opacity: 85%;
+   box-shadow: 2px 2px 2px black;
+   background-color: white;
+   border: 1px black solid;
+   border-radius: 10px;
+}
+span
+{
+    color: black;
+    font-weight: bold;
+}
+form
+{
+    margin-top: 100px;
+    height: 300;
+    width: 300;
+    display: flex;
+    flex-direction: column;
+}
+#cityChange
+{
+    width: 200px;
+}
+#cityChange>label>input
+{
+    width: 150px;
+}
+#cityChange>input
+{
+    width: 150px;
+}

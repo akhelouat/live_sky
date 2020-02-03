@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-        <meta charset="utf-8" />
-        <title>Live Sky</title>
-        <link rel="stylesheet" href="components/style.css">
+    <meta charset="utf-8" />
+    <title>Live Sky</title>
+    <link rel="stylesheet" href="components/style.css">
 </head>
 <body>
-        <h1>Live Sky</h1>
+    <h1>Live Sky</h1>
     <div id="meteo">
         <p>City : <span id="city"></span></p>
         <p>Temperature : <span id="temperature"></span>°C</p>
@@ -14,11 +14,10 @@
         <p>Conditions : <span id="conditions"></span></p>
         <img id="currentPic" src="#" alt="current_picture">
      </div>
-     <form id="cityChange" action="meteo.html" method="get">
-            <label>Choose another city :<input type="text" name="city"></label> 
-            <input type="submit" value="Change">
-         </form>
-         <script type="text/javascript" src="components/api.js"></script>
-    
+     <form id="cityChange" action="index.html" method="get">
+        <label>Choose another city :<input type="text" name="city"></label> 
+        <input type="submit" value="Change">
+     </form>
+    <script type="text/javascript" src="components/api.js"></script>
 </body>
 </html>

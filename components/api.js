@@ -22,4 +22,4 @@ request.onload = function () {
      currentPic.setAttribute('src', response.current.weather_icons); 
      //currentPic = "<img src="\' + response.current.weather_icons + \'>";
     };
-  request.send();        
+request.send();        
